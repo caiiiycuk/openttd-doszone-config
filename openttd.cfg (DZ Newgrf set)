@@ -1,0 +1,513 @@
+[misc]
+display_opt = SHOW_TOWN_NAMES|SHOW_STATION_NAMES|SHOW_SIGNS|FULL_ANIMATION|FULL_DETAIL|WAYPOINTS|SHOW_COMPETITOR_SIGNS
+facility_display_opt = TRAIN|TRUCK_STOP|BUS_STOP|AIRPORT|DOCK|GHOST
+fullscreen = false
+video_hw_accel = true
+video_vsync = false
+support8bpp = no
+soundsset = "NoSound"
+musicset = 
+videodriver = 
+musicdriver = 
+sounddriver = 
+blitter = 
+language = english.lng
+resolution = 861,573
+screenshot_format = 
+savegame_format = 
+rightclick_emulate = false
+small_font = 
+medium_font = 
+large_font = 
+mono_font = 
+small_size = 0
+medium_size = 0
+large_size = 0
+mono_size = 0
+global_aa = true
+prefer_sprite_font = false
+sprite_cache_size_px = 128
+player_face = 
+transparency_options = 0
+transparency_locks = 0
+invisibility_options = 0
+keyboard = 
+keyboard_caps = 
+last_newgrf_count = 187
+gui_scale = -1
+
+[difficulty]
+max_no_competitors = 0
+competitors_interval = 10
+number_towns = 0
+industry_density = 3
+max_loan = 300000
+initial_interest = 3
+vehicle_costs = 1
+competitor_speed = 2
+vehicle_breakdowns = 1
+subsidy_multiplier = 3
+subsidy_duration = 10
+construction_cost = 1
+terrain_type = 3
+quantity_sea_lakes = 0
+economy = false
+line_reverse_mode = false
+disasters = false
+town_council_tolerance = 3
+infinite_money = false
+
+[economy]
+town_layout = 4
+allow_town_roads = false
+found_town = 2
+place_houses = 2
+allow_town_level_crossings = false
+town_cargogen_mode = 1
+station_noise_level = false
+inflation = false
+multiple_industry_per_town = true
+bribe = true
+exclusive_rights = false
+fund_buildings = true
+fund_roads = true
+give_money = false
+type = 1
+feeder_payment_share = 85
+town_growth_rate = 1
+larger_towns = 0
+initial_city_size = 1
+mod_road_rebuild = true
+dist_local_authority = 20
+town_noise_population[0] = 800
+town_noise_population[1] = 2000
+town_noise_population[2] = 4000
+town_noise_population[3] = 400
+infrastructure_maintenance = true
+timekeeping_units = 1
+minutes_per_calendar_year = 30
+town_cargo_scale = 100
+industry_cargo_scale = 100
+
+[order]
+no_servicing_if_no_breakdowns = true
+improved_load = true
+selectgoods = true
+serviceathelipad = true
+station_length_loading_penalty = true
+gradual_loading = true
+
+[station]
+never_expire_airports = false
+station_spread = 14
+modified_catchment = true
+serve_neutral_industries = true
+distant_join_stations = true
+adjacent_stations = true
+
+[vehicle]
+road_side = right
+train_acceleration_model = 1
+roadveh_acceleration_model = 1
+train_slope_steepness = 3
+roadveh_slope_steepness = 7
+max_train_length = 14
+smoke_amount = 2
+never_expire_vehicles = true
+max_trains = 500
+max_roadveh = 500
+max_aircraft = 40
+max_ships = 300
+wagon_speed_limits = false
+disable_elrails = false
+freight_trains = 2
+plane_speed = 2
+dynamic_engines = true
+plane_crashes = 1
+extend_vehicle_life = 0
+servint_ispercent = true
+servint_trains = 10
+servint_roadveh = 10
+servint_ships = 10
+servint_aircraft = 10
+
+[linkgraph]
+recalc_interval = 16
+recalc_time = 64
+distribution_pax = 0
+distribution_mail = 0
+distribution_armoured = 0
+distribution_default = 0
+accuracy = 16
+demand_distance = 100
+demand_size = 100
+short_path_saturation = 80
+
+[locale]
+currency = GBP
+units_velocity = metric
+units_velocity_nautical = metric
+units_power = metric
+units_weight = metric
+units_volume = metric
+units_force = si
+units_height = metric
+digit_group_separator = 
+digit_group_separator_currency = 
+digit_decimal_separator = 
+
+[network]
+commands_per_frame = 2
+commands_per_frame_server = 16
+max_commands_in_queue = 16
+bytes_per_frame = 8
+bytes_per_frame_burst = 256
+max_init_time = 100
+max_join_time = 500
+max_download_time = 1000
+max_password_time = 0
+max_lag_time = 500
+pause_on_join = true
+allow_insecure_admin_login = false
+server_game_type = local
+autoclean_companies = true
+autoclean_protected = 0
+autoclean_novehicles = 24
+max_companies = 15
+max_clients = 30
+restart_game_year = 2146
+restart_hours = 0
+min_active_clients = 0
+reload_cfg = false
+autoclean_unprotected = 0
+server_port = 3979
+server_admin_port = 3977
+server_admin_chat = true
+
+[news_display]
+arrival_player = full
+arrival_other = summarized
+accident = full
+accident_other = full
+company_info = full
+open = summarized
+close = summarized
+economy = full
+production_player = summarized
+production_other = off
+production_nobody = off
+advice = full
+new_vehicles = full
+acceptance = full
+subsidies = summarized
+general = full
+
+[pf]
+forbid_90_deg = true
+roadveh_queue = true
+reverse_at_signals = false
+wait_oneway_signal = 15
+wait_twoway_signal = 41
+wait_for_pbs_path = 30
+reserve_paths = false
+path_backoff_interval = 20
+yapf.disable_node_optimization = false
+yapf.max_search_nodes = 10000
+yapf.rail_firstred_twoway_eol = true
+yapf.rail_firstred_penalty = 1000
+yapf.rail_firstred_exit_penalty = 10000
+yapf.rail_lastred_penalty = 1000
+yapf.rail_lastred_exit_penalty = 10000
+yapf.rail_station_penalty = 1000
+yapf.rail_slope_penalty = 200
+yapf.rail_curve45_penalty = 100
+yapf.rail_curve90_penalty = 600
+yapf.rail_depot_reverse_penalty = 5000
+yapf.rail_crossing_penalty = 300
+yapf.rail_look_ahead_max_signals = 10
+yapf.rail_look_ahead_signal_p0 = 500
+yapf.rail_look_ahead_signal_p1 = -100
+yapf.rail_look_ahead_signal_p2 = 5
+yapf.rail_pbs_cross_penalty = 300
+yapf.rail_pbs_station_penalty = 800
+yapf.rail_pbs_signal_back_penalty = 1500
+yapf.rail_doubleslip_penalty = 100
+yapf.rail_longer_platform_penalty = 800
+yapf.rail_longer_platform_per_tile_penalty = 0
+yapf.rail_shorter_platform_penalty = 4000
+yapf.rail_shorter_platform_per_tile_penalty = 0
+yapf.road_slope_penalty = 200
+yapf.road_curve_penalty = 100
+yapf.road_crossing_penalty = 300
+yapf.road_stop_penalty = 800
+yapf.road_stop_occupied_penalty = 800
+yapf.road_stop_bay_occupied_penalty = 1500
+yapf.maximum_go_to_depot_penalty = 2000
+yapf.ship_curve45_penalty = 100
+yapf.ship_curve90_penalty = 600
+pathfinder_for_trains = 2
+pathfinder_for_roadvehs = 2
+pathfinder_for_ships = 2
+npf.npf_max_search_nodes = 10000
+npf.npf_rail_firstred_penalty = 1000
+npf.npf_rail_firstred_exit_penalty = 10000
+npf.npf_rail_lastred_penalty = 1000
+npf.npf_rail_station_penalty = 100
+npf.npf_rail_slope_penalty = 100
+npf.npf_rail_curve_penalty = 100
+npf.npf_rail_depot_reverse_penalty = 5000
+npf.npf_rail_pbs_cross_penalty = 300
+npf.npf_rail_pbs_signal_back_penalty = 1500
+npf.npf_buoy_penalty = 200
+npf.npf_water_curve_penalty = 100
+npf.npf_road_curve_penalty = 100
+npf.npf_crossing_penalty = 300
+npf.npf_road_drive_through_penalty = 800
+npf.npf_road_dt_occupied_penalty = 800
+npf.npf_road_bay_occupied_penalty = 1500
+npf.maximum_go_to_depot_penalty = 2000
+
+[script]
+script_max_opcode_till_suspend = 10000
+script_max_memory_megabytes = 1024
+
+[ai]
+ai_in_multiplayer = false
+ai_disable_veh_train = false
+ai_disable_veh_roadveh = false
+ai_disable_veh_aircraft = false
+ai_disable_veh_ship = false
+
+[game_creation]
+town_name = 21
+landscape = {landscape}
+heightmap_height = 30
+snow_line_height = 10
+snow_coverage = 40
+desert_coverage = 50
+starting_year = 1950
+ending_year = 2146
+land_generator = 1
+oil_refinery_limit = 64
+tgen_smoothness = 3
+variety = 5
+tree_placer = 2
+heightmap_rotation = 0
+se_flat_world_height = 1
+map_x = 10
+map_y = 10
+water_borders = 15
+custom_town_number = 1
+custom_industry_number = 1
+custom_terrain_type = 30
+custom_sea_level = 1
+min_river_length = 16
+river_route_random = 5
+amount_of_rivers = 3
+water_border_presets = 2
+
+[construction]
+map_height_limit = 0
+build_on_slopes = true
+command_pause_level = 3
+terraform_per_64k_frames = 10000
+terraform_frame_burst = 15
+clear_per_64k_frames = 10000
+clear_frame_burst = 512
+tree_per_64k_frames = 4194304
+tree_frame_burst = 4096
+build_object_per_64k_frames = 2097152
+build_object_frame_burst = 2048
+autoslope = true
+extra_dynamite = true
+max_bridge_length = 64
+max_bridge_height = 12
+max_tunnel_length = 64
+train_signal_side = 1
+road_stop_on_town_road = true
+road_stop_on_competitor_road = true
+crossing_with_competitor = false
+raw_industry_construction = 2
+industry_platform = 1
+freeform_edges = false
+extra_tree_placement = 1
+
+[currency]
+rate = 1
+separator = "."
+to_euro = 0
+prefix = 
+suffix = " credits"
+
+[company]
+engine_renew = true
+engine_renew_months = 6
+engine_renew_money = 100000
+renew_keep_length = false
+
+[gui]
+autosave_interval = 10
+threaded_saves = true
+date_format_in_default_names = iso
+show_finances = true
+auto_scrolling = 0
+scroll_mode = 2
+smooth_scroll = true
+right_click_wnd_close = no
+toolbar_dropdown_autoselect = false
+measure_tooltip = true
+errmsg_duration = 5
+hover_delay_ms = 250
+osk_activation = double
+toolbar_pos = 1
+statusbar_pos = 1
+window_snap_radius = 10
+window_soft_limit = 20
+zoom_min = 0
+zoom_max = 5
+sprite_zoom_min = 0
+population_in_label = true
+link_terraform_toolbar = false
+smallmap_land_colour = 0
+linkgraph_colours = 0
+liveries = 2
+starting_colour = 16
+starting_colour_secondary = 16
+auto_remove_signals = false
+prefer_teamchat = false
+scrollwheel_scrolling = 0
+scrollwheel_multiplier = 5
+pause_on_newgame = false
+advanced_vehicle_list = 1
+timetable_mode = 0
+timetable_arrival_departure = true
+quick_goto = true
+loading_indicators = 1
+default_rail_type = 0
+signal_gui_mode = 0
+default_signal_type = 5
+coloured_news_year = 2000
+cycle_signal_types = 0
+drag_signals_density = 4
+drag_signals_fixed_distance = false
+semaphore_build_before = 1950
+vehicle_income_warn = true
+order_review_system = 2
+lost_vehicle_warn = true
+old_vehicle_warn = true
+new_nonstop = true
+stop_location = 1
+keep_all_autosave = false
+autosave_on_exit = false
+autosave_on_network_disconnect = true
+max_num_autosaves = 16
+auto_euro = true
+news_message_timeout = 2
+show_track_reservation = true
+station_numtracks = 1
+station_platlength = 5
+station_dragdrop = true
+station_show_coverage = false
+persistent_buildingtools = true
+station_gui_group_order = 3
+station_gui_sort_by = 0
+station_gui_sort_order = 0
+missing_strings_threshold = 25
+graph_line_thickness = 3
+show_newgrf_name = false
+show_cargo_in_vehicle_lists = false
+show_date_in_logs = false
+settings_restriction_mode = 2
+developer = 1
+newgrf_developer_tools = false
+ai_developer_tools = false
+scenario_developer = false
+newgrf_show_old_versions = false
+newgrf_default_palette = 1
+console_backlog_timeout = 100
+console_backlog_length = 100
+refresh_rate = 60
+fast_forward_speed_limit = 2500
+network_chat_box_width_pct = 40
+network_chat_box_height = 25
+network_chat_timeout = 20
+scale_bevels = true
+
+[sound]
+news_ticker = true
+news_full = true
+new_year = true
+confirm = true
+click_beep = true
+disaster = true
+vehicle = true
+ambient = true
+
+[music]
+playlist = 0
+music_vol = 50
+effect_vol = 100
+custom_1 = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+custom_2 = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+playing = true
+shuffle = false
+
+[graphicsset]
+name = OpenGFX
+shortname = 4F474658
+
+[newgrf]
+F1250010|38681DA50AF8D045616DB126A926F996|f1250010-firs_industries_5_ru-5.2.0.tar/firs_industries_5_ru-5.2.0/firs.grf = 0 0 0 0 0 0 16 150 80 250 1
+32323322|316180DA1BA6444A06CD17F8FA79D60A|32323322-russian_town_names-5.tar/russian_town_names-5/rusnames.grf = 
+52571208|DC83DAB2933FACCB91678D4F75ABCCC6|52571208-generic_cars-0.4.tar/generic_cars-0.4/cars.grf = 
+52570103|EDB2D26F9D81423734CA12412F309CF3|52570103-generic_tram_set-0.4.tar/generic_tram_set.0.4/generictrams.grf = 
+41501202|B13DD8FB0D7C34CACAC2FE68BD137BB9|41501202-heqs_heavy_equipment_set-1.5.2.tar/heqs_heavy_equipment_set-1.5.2/heqs.grf = 9 9 1 1 1 1
+9787EAFE|04ACD20A006E345283D6464678AFFA8B|9787eafe-road_hog_buses_trucks_trams-1.4.1.tar/road_hog-1.4.1/road-hog.grf = 1 0 0
+4C450002|5A378079570D153CFBD9D5F8968A027D|4c450002-8_32bpp_canton_buses_chn-0.2.tar/832bpp_canton_buseschn-0.2/lgzbus.grf = 
+4D570102|8C41066F2430A1762047AB077B51EE63|4d570102-hover_bus-1.0.tar/hover_bus.1.0/hoverbus_1.0.grf = 
+47460000|A4F4DABC184F3C73F0EB54342CCFF087|47460000-8_32bpp_trains_2cc-2.tar/832bpp_trains_2cc-2/trains.grf = 1 0 3 1 1 1 1 0 1 1 1 1
+485A0101|7636EC20949478C0576AE6CDACE9EC84|485a0101-hover_vehicles-1.tar/hover_vehicles-1/hoverv.grf = 0 1
+48531999|618514F259A829C9C5D3BBE1C0FECACF|48531999-hvw_modular_truck_set-r130.tar/hvw_modular_truck_set-r130/hvw-mts.grf = 2 2 1 0 0
+1560B248|76BE5A3BA8C66817C14CFA05177D20D9|1560b248-redfish-0.4.tar/redfish-0.4/redfish.grf = 1 1 0
+41560103|98AA8B74926AB2A59F14FF0F49B8B80B|41560103-egrvts_v2.1-r240.tar/egrvts_v2.1-r240/egrvts2_1.grf = 0 61 0 3 0
+[newgrf-static]
+
+[preset-doszone]
+F1250010|38681DA50AF8D045616DB126A926F996|f1250010-firs_industries_5_ru-5.2.0.tar\firs_industries_5_ru-5.2.0\firs.grf = 4 0 0 0 0 0 16 150 80 250 1
+32323322|316180DA1BA6444A06CD17F8FA79D60A|32323322-russian_town_names-5.tar\russian_town_names-5\rusnames.grf = 
+52571208|DC83DAB2933FACCB91678D4F75ABCCC6|52571208-generic_cars-0.4.tar\generic_cars-0.4\cars.grf = 
+52570103|EDB2D26F9D81423734CA12412F309CF3|52570103-generic_tram_set-0.4.tar\generic_tram_set.0.4\generictrams.grf = 
+41501202|B13DD8FB0D7C34CACAC2FE68BD137BB9|41501202-heqs_heavy_equipment_set-1.5.2.tar\heqs_heavy_equipment_set-1.5.2\heqs.grf = 9 9 1 1 1 1
+9787EAFE|04ACD20A006E345283D6464678AFFA8B|9787eafe-road_hog_buses_trucks_trams-1.4.1.tar\road_hog-1.4.1\road-hog.grf = 1 0 0
+4C450002|5A378079570D153CFBD9D5F8968A027D|4c450002-8_32bpp_canton_buses_chn-0.2.tar\832bpp_canton_buseschn-0.2\lgzbus.grf = 
+4D570102|8C41066F2430A1762047AB077B51EE63|4d570102-hover_bus-1.0.tar\hover_bus.1.0\hoverbus_1.0.grf = 
+47460000|A4F4DABC184F3C73F0EB54342CCFF087|47460000-8_32bpp_trains_2cc-2.tar\832bpp_trains_2cc-2\trains.grf = 1 0 3 1 1 1 1 0 1 1 1 1
+485A0101|7636EC20949478C0576AE6CDACE9EC84|485a0101-hover_vehicles-1.tar\hover_vehicles-1\hoverv.grf = 0 1
+48531999|618514F259A829C9C5D3BBE1C0FECACF|48531999-hvw_modular_truck_set-r130.tar\hvw_modular_truck_set-r130\hvw-mts.grf = 2 2 1 0 0
+1560B248|76BE5A3BA8C66817C14CFA05177D20D9|1560b248-redfish-0.4.tar\redfish-0.4\redfish.grf = 1 1 0
+41560103|98AA8B74926AB2A59F14FF0F49B8B80B|41560103-egrvts_v2.1-r240.tar\egrvts_v2.1-r240\egrvts2_1.grf = 0 63 0 3 0
+
+[ai_players]
+none = 
+none = 
+none = 
+none = 
+none = 
+none = 
+none = 
+none = 
+none = 
+none = 
+none = 
+none = 
+none = 
+none = 
+none = 
+
+[game_scripts]
+none = 
+
+[version]
+version_string = 15.3
+version_number = 1F386D64
+ini_version = 7
