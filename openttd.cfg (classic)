@@ -58,25 +58,25 @@ town_council_tolerance = 3
 infinite_money = false
 
 [economy]
-town_layout = 4
+town_layout = 1
 allow_town_roads = true
-found_town = 2
+found_town = 1
 place_houses = 0
-allow_town_level_crossings = false
+allow_town_level_crossings = true
 town_cargogen_mode = 1
 station_noise_level = false
 inflation = false
-multiple_industry_per_town = true
+multiple_industry_per_town = false
 bribe = true
 exclusive_rights = false
 fund_buildings = true
-fund_roads = true
+fund_roads = false
 give_money = false
 type = 2
 feeder_payment_share = 85
 town_growth_rate = 2
-larger_towns = 0
-initial_city_size = 1
+larger_towns = 4
+initial_city_size = 2
 mod_road_rebuild = true
 dist_local_authority = 20
 town_noise_population[0] = 800
@@ -330,7 +330,7 @@ crossing_with_competitor = false
 raw_industry_construction = 2
 industry_platform = 3
 freeform_edges = true
-extra_tree_placement = 1
+extra_tree_placement = 2
 
 [currency]
 rate = 1
