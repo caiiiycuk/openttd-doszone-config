@@ -40,7 +40,7 @@ gui_scale = -1
 max_no_competitors = 0
 competitors_interval = 10
 number_towns = 0
-industry_density = 3
+industry_density = 2
 max_loan = 300000
 initial_interest = 3
 vehicle_costs = 1
@@ -74,8 +74,8 @@ fund_roads = false
 give_money = false
 type = 1
 feeder_payment_share = 85
-town_growth_rate = 2
-larger_towns = 5
+town_growth_rate = 1
+larger_towns = 4
 initial_city_size = 3
 mod_road_rebuild = true
 dist_local_authority = 20
@@ -328,7 +328,7 @@ road_stop_on_town_road = true
 road_stop_on_competitor_road = true
 crossing_with_competitor = false
 raw_industry_construction = 2
-industry_platform = 2
+industry_platform = 3
 freeform_edges = false
 extra_tree_placement = 1
 
@@ -457,18 +457,17 @@ name = OpenGFX
 shortname = 4F474658
 
 [newgrf]
-F1250010|38681DA50AF8D045616DB126A926F996|f1250010-firs_industries_5_ru-5.2.0.tar/firs_industries_5_ru-5.2.0/firs.grf = 0 0 0 0 0 0 32 170 100 300 1
+F1250010|38681DA50AF8D045616DB126A926F996|f1250010-firs_industries_5_ru-5.2.0.tar/firs_industries_5_ru-5.2.0/firs.grf = 3 0 0 0 10 0 100 500 400 1000 1
 32323322|316180DA1BA6444A06CD17F8FA79D60A|32323322-russian_town_names-5.tar/russian_town_names-5/rusnames.grf = 
 52571208|DC83DAB2933FACCB91678D4F75ABCCC6|52571208-generic_cars-0.4.tar/generic_cars-0.4/cars.grf = 
 52570103|EDB2D26F9D81423734CA12412F309CF3|52570103-generic_tram_set-0.4.tar/generic_tram_set.0.4/generictrams.grf = 
-41501202|B13DD8FB0D7C34CACAC2FE68BD137BB9|41501202-heqs_heavy_equipment_set-1.5.2.tar/heqs_heavy_equipment_set-1.5.2/heqs.grf = 9 9 1 1 1 1
-9787EAFE|04ACD20A006E345283D6464678AFFA8B|9787eafe-road_hog_buses_trucks_trams-1.4.1.tar/road_hog-1.4.1/road-hog.grf = 1 0 0
+41501202|B13DD8FB0D7C34CACAC2FE68BD137BB9|41501202-heqs_heavy_equipment_set-1.5.2.tar/heqs_heavy_equipment_set-1.5.2/heqs.grf = 9 9 0 1 1 0
+9787EAFE|04ACD20A006E345283D6464678AFFA8B|9787eafe-road_hog_buses_trucks_trams-1.4.1.tar/road_hog-1.4.1/road-hog.grf = 2 0 0
 4C450002|5A378079570D153CFBD9D5F8968A027D|4c450002-8_32bpp_canton_buses_chn-0.2.tar/832bpp_canton_buseschn-0.2/lgzbus.grf = 
-4D570102|8C41066F2430A1762047AB077B51EE63|4d570102-hover_bus-1.0.tar/hover_bus.1.0/hoverbus_1.0.grf = 
 47460000|A4F4DABC184F3C73F0EB54342CCFF087|47460000-8_32bpp_trains_2cc-2.tar/832bpp_trains_2cc-2/trains.grf = 1 0 3 1 1 1 1 0 1 1 1 1
-485A0101|7636EC20949478C0576AE6CDACE9EC84|485a0101-hover_vehicles-1.tar/hover_vehicles-1/hoverv.grf = 0 1
+485A0101|7636EC20949478C0576AE6CDACE9EC84|485a0101-hover_vehicles-1.tar/hover_vehicles-1/hoverv.grf = 1 1
 48531999|618514F259A829C9C5D3BBE1C0FECACF|48531999-hvw_modular_truck_set-r130.tar/hvw_modular_truck_set-r130/hvw-mts.grf = 2 2 1 0 0
-1560B248|76BE5A3BA8C66817C14CFA05177D20D9|1560b248-redfish-0.4.tar/redfish-0.4/redfish.grf = 1 1 0
+1560B248|76BE5A3BA8C66817C14CFA05177D20D9|1560b248-redfish-0.4.tar/redfish-0.4/redfish.grf = 1 2 0
 41560103|98AA8B74926AB2A59F14FF0F49B8B80B|41560103-egrvts_v2.1-r240.tar/egrvts_v2.1-r240/egrvts2_1.grf = 0 61 0 3 0
 [newgrf-static]
 
