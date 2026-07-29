@@ -40,7 +40,7 @@ gui_scale = -1
 max_no_competitors = 0
 competitors_interval = 10
 number_towns = 0
-industry_density = 2
+industry_density = 5
 max_loan = 3000000
 initial_interest = 3
 vehicle_costs = 1
@@ -478,7 +478,7 @@ F1250010|38681DA50AF8D045616DB126A926F996|f1250010-firs_industries_5_ru-5.2.0.ta
 [newgrf-static]
 
 [preset-doszone]
-F1250010|38681DA50AF8D045616DB126A926F996|f1250010-firs_industries_5_ru-5.2.0.tar\firs_industries_5_ru-5.2.0\firs.grf = 4 0 0 0 0 0 16 150 80 250 1
+F1250010|38681DA50AF8D045616DB126A926F996|f1250010-firs_industries_5_ru-5.2.0.tar\firs_industries_5_ru-5.2.0\firs.grf = 4 0 4 0 0 0 16 150 80 250 1
 32323322|316180DA1BA6444A06CD17F8FA79D60A|32323322-russian_town_names-5.tar\russian_town_names-5\rusnames.grf = 
 52571208|DC83DAB2933FACCB91678D4F75ABCCC6|52571208-generic_cars-0.4.tar\generic_cars-0.4\cars.grf = 
 52570103|EDB2D26F9D81423734CA12412F309CF3|52570103-generic_tram_set-0.4.tar\generic_tram_set.0.4\generictrams.grf = 
